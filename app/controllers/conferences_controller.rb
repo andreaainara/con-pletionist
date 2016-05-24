@@ -5,6 +5,7 @@ class ConferencesController < ApplicationController
   # GET /conferences.json
   def index
     @conferences = Conference.all
+    render :index
   end
 
   # GET /conferences/1
